@@ -1,0 +1,40 @@
+﻿<Window xmlns:UserControls="clr-namespace:SEG.Desktop.UserControls"  x:Class="SEG.Desktop.Windows.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:utilities="clr-namespace:SEG.Desktop.Utilities"
+        xmlns:control="clr-namespace:LoadingControl.Control"
+        Title="SEG - Projects" Height="500" Width="800" WindowState="Maximized" WindowStyle="None" SizeChanged="Window_SizeChanged" ResizeMode="NoResize" Activated="Window_Activated">
+    <Grid>
+        <Canvas x:Name="cL" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Visibility="Visible">
+            <Label x:Name="labTitleA" Content="GLBSYS" Canvas.Left="170" Canvas.Top="68" FontFamily="Segoe UI" FontSize="36" Foreground="White"/>
+            <Label x:Name="labTitleB" Content="SEG" Canvas.Left="170" Canvas.Top="84" FontFamily="Segoe UI" FontSize="124" Foreground="#FF00556E" FontWeight="Bold" FontStretch="UltraCondensed"/>
+            <Label x:Name="labExit" Content="Exit" Canvas.Left="570" Canvas.Top="100" FontFamily="Segoe UI" FontSize="20" Foreground="#FF00556E" FontWeight="Bold" FontStretch="UltraCondensed"
+                   Width="50" Height="40" MouseDown="labExit_MouseDown" />
+
+            <TextBox x:Name="eUser" Height="32" TextWrapping="Wrap" Text="" 
+                     Canvas.Left="170" Canvas.Top="284" Width="240" 
+                     HorizontalAlignment="Center" FontFamily="Segoe UI" FontSize="14" VerticalAlignment="Center" 
+                     HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                <utilities:WatermarkService.Watermark>
+                    <TextBlock FontFamily="Segoe UI" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center">LOGIN</TextBlock>
+                </utilities:WatermarkService.Watermark>
+            </TextBox>
+            <PasswordBox x:Name="ePass" Canvas.Left="170" Canvas.Top="320" Width="240" HorizontalAlignment="Center" MaxLength="10" FontFamily="Segoe UI" FontSize="14" Height="32" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" KeyDown="ePass_KeyDown">
+                <utilities:WatermarkService.Watermark>
+                    <TextBlock FontFamily="Segoe UI" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center">SEHNA</TextBlock>
+                </utilities:WatermarkService.Watermark>
+            </PasswordBox>
+            <Canvas x:Name="bcLogin" Height="32" Canvas.Left="378" Canvas.Top="320" Width="32" Background="#FF00556E" Panel.ZIndex="999" MouseDown="bcLogin_MouseDown">
+                <Label Content="&gt;" Foreground="White" FontFamily="Segoe UI" FontSize="36" Canvas.Top="-17" MouseDown="bcLogin_MouseDown"/>
+            </Canvas>
+            <TextBlock x:Name="labFoot1" Canvas.Left="251" TextWrapping="Wrap" Text="Build 1.0.0 - 2016/01/22" Canvas.Top="439" FontFamily="Segoe UI" FontSize="14" Width="300" TextAlignment="Center" Height="30"/>
+            <TextBlock x:Name="labFoot2" Canvas.Left="251" TextWrapping="Wrap" Text="Copyright (c) 2016. GreyLogix Brasil" Canvas.Top="458" FontFamily="Segoe UI" FontSize="14" Width="300" TextAlignment="Center" Height="30"/>
+            <control:LoadingAnimation x:Name="waitControl" Canvas.Left="251"  Canvas.Top="369" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Hidden"/>
+        </Canvas>
+
+        <Canvas x:Name="c" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Visibility="Hidden">
+            <UserControls:SEGMenuBar x:Name="segM" Width="700" Height="100" Panel.ZIndex="999"/>
+            <ContentPresenter x:Name="cpContent" Width="500" Height="500"></ContentPresenter>
+        </Canvas>
+    </Grid>
+</Window>

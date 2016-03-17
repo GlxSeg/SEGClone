@@ -1,0 +1,328 @@
+section	2				ARRANJO FÍSICO E INSTALAÇÕES										
+	12	6			"Nos locais de instalação de máquinas e equipamentos, as áreas de circulação devem ser devidamente demarcadas e em conformidade com as normas técnicas oficiais."										
+	12	6	1		"As vias principais de circulação nos locais de trabalho e as que conduzem às saídas devem ter, no mínimo, 1,20 m (um metro e vinte centímetros) de largura."										
+	12	6	2		As áreas de circulação devem ser mantidas permanentemente desobstruídas.										
+	12	7			"Os materiais em utilização no processo produtivo devem ser alocados em áreas especificas de armazenamento, devidamente demarcadas com faixas na cor indicada pelas normas técnicas oficiais ou sinalizadas quando se tratar de áreas externas."										
+	12	8			"Os espaços ao redor das máquinas e equipamentos devem ser adequados ao seu tipo e ao tipo de operação, de forma a prevenir a ocorrência de acidentes e doenças relacionados ao trabalho."										
+	12	8	1		"A distância mínima entre máquinas, em conformidade com suas características e aplicações, deve garantir a segurança dos trabalhadores durante sua operação, manutenção, ajuste, limpeza e inspeção, e permitir a movimentação dos segmentos corporais, em face da natureza da tarefa"										
+	12	8	2		"As áreas de circulação e armazenamento de materiais e os espaços em torno de máquinas devem ser projetados, dimensionados e mantidos de forma que os trabalhadores e os transportadores de materiais, mecanizados e manuais, movimentem-se com segurança."										
+print	12	9			Os pisos dos locais de trabalho onde se instalam máquinas e equipamentos e das áreas de circulação devem:										
+	12	9	0	a)	"Ser mantidos limpos e livres de objetos, ferramentas e quaisquer materiais que ofereçam riscos de acidentes"										
+	12	9	0	b)	"Ter características de modo a prevenir riscos provenientes de graxas, óleos e outras substâncias e materiais que os tornem escorregadios"										
+	12	9	0	c)	Ser nivelados e resistentes às cargas a que estão sujeitos										
+	12	10			As ferramentas utilizadas no processo produtivo devem ser organizadas e armazenadas ou dispostas em locais específicos para essa finalidade										
+	12	11			"As máquinas estacionárias devem possuir medidas preventivas quanto à sua estabilidade, de modo que não basculem e não se desloquem intempestivamente por vibrações, choques, forças externas previsíveis, forças dinâmicas internas ou qualquer outro motivo acidental"										
+	12	11	1		"A instalação das máquinas estacionárias deve respeitar os requisitos necessários fornecidos pelos fabricantes ou, na falta desses, o projeto elaborado por profissional legalmente habilitado, em especial quanto à fundação, fixação, amortecimento, nivelamento, ventilação, alimentação elétrica, pneumática e hidráulica, aterramento e sistemas de refrigeração"										
+	12	12			"Nas máquinas móveis que possuem rodízios, pelo menos dois deles devem possuir travas"										
+	12	13			"As máquinas, as áreas de circulação, os postos de trabalho e quaisquer outros locais em que possa haver trabalhadores devem ficar posicionados de modo que não ocorra transporte e movimentação aérea de materiais sobre os trabalhadores"										
+section	3				INSTALAÇÕES E DISPOSITIVOS ELÉTRICOS										
+	12	14			"As instalações elétricas das máquinas e equipamentos devem ser projetadas e mantidas de modo a prevenir, por meios seguros, os perigos de choque elétrico, incêndio, explosão e outros tipos de acidentes, conforme previsto na NR- 10"										
+	12	15			"Devem ser aterrados, conforme as normas técnicas oficiais vigentes, as instalações, carcaças, invólucros, blindagens ou partes condutoras das máquinas e equipamentos que não façam parte dos circuitos elétricos, mas que possam ficar sob tensão"										
+	12	16			"As instalações elétricas das máquinas e equipamentos que estejam ou possam estar em contato direto ou indireto com água ou agentes  corrosivos devem ser projetadas com meios e dispositivos que garantam sua blindagem, estanqueidade, isolamento e aterramento, de modo a prevenir a ocorrência de acidentes"										
+section	4				"DISPOSITIVOS DE PARTIDA, ACIONAMENTO E PARADA"										
+print	12	24			"Os dispositivos de partida, acionamento e parada das máquinas devem ser projetados, selecionados e instalados de modo que:"										
+	12	24	0	a)	Não se localizem em suas zonas perigosas										
+	12	24	0	b)	Possam ser acionados ou desligados em caso de emergência por outra pessoa que não seja o operador										
+	12	24	0	c)	Impeçam acionamento ou desligamento involuntário pelo operador ou por qualquer outra forma acidental										
+	12	24	0	d)	Não acarretem riscos adicionais										
+	12	24	0	e)	Não possam ser burlados										
+print	12	28			"Os dispositivos de comando bimanual devem ser posicionados a uma distância segura da zona de perigo, levando em consideração:"										
+	12	28	0	a)	"A forma, a disposição e o tempo de resposta do dispositivo de comando bimanual"										
+	12	28	0	b)	"O tempo máximo necessário para a paralisação da máquina ou para a remoção do perigo, após o término do sinal de saída do dispositivo de comando bimanual"										
+	12	28	0	c)	A utilização projetada para a máquina										
+print	12	29			Os comandos bimanuais móveis instalados em pedestais devem:										
+	12	29	0	a)	Manter-se estáveis em sua posição de trabalho										
+	12	29	0	b)	Possuir altura compatível com o posto de trabalho para ficar ao alcance do operador em sua posição de trabalho										
+	12	30			"Nas máquinas e equipamentos cuja operação requeira a participação de mais de uma pessoa, o número de dispositivos de acionamento simultâneos deve corresponder ao número de operadores expostos aos perigos decorrentes de seu acionamento, de modo que o nível de proteção seja o mesmo para cada trabalhador"										
+	12	33			O acionamento e o desligamento simultâneo por um único comando de um conjunto de máquinas e equipamentos ou de máquinas e equipamentos de grande dimensão devem ser precedidos de sinal sonoro de alarme										
+	12	34			"Devem ser adotadas, quando necessárias, medidas adicionais de alerta, como sinal visual e dispositivos de telecomunicação, considerando as características do processo produtivo e dos trabalhadores"										
+section	5				SISTEMAS DE SEGURANÇA										
+	12	38			"As zonas de perigo das máquinas e equipamentos devem possuir sistemas de segurança, caracterizados por proteções fixas, proteções móveis e dispositivos de segurança interligados, que garantam proteção à saúde e à integridade física dos trabalhadores"										
+	12	38	1		"A adoção de sistemas de segurança, em especial nas zonas de operação que apresentem perigo, deve considerar as características técnicas da máquina e do processo de trabalho e as medidas e alternativas técnicas existentes, de modo a atingir o nível necessário de segurança previsto nesta Norma"										
+print	12	39			Os sistemas de segurança devem ser selecionados e instalados de modo a atender aos seguintes requisitos:										
+	12	39	0	a)	Ter categoria de segurança conforme prévia análise de riscos prevista nas normas técnicas oficiais vigentes										
+	12	39	0	b)	Estar sob a responsabilidade técnica de profissional legalmente habilitado										
+	12	39	0	c)	Possuir conformidade técnica com o sistema de comando a que são integrados										
+	12	39	0	d)	Instalação de modo que não possam ser neutralizados ou burlados										
+	12	39	0	e)	"Manterem-se sob vigilância automática, ou seja, monitoramento, de acordo com a categoria de segurança requerida, exceto para dispositivos de segurança exclusivamente mecânicos"										
+	12	39	0	f)	Paralisação dos movimentos perigosos e demais riscos quando ocorrerem falhas ou situações anormais de trabalho										
+print	12	41			"Para fins de aplicação desta Norma, considera-se proteção o elemento especificamente utilizado para prover segurança por meio de barreira física, podendo ser:"										
+	12	41	0	a)	"Proteção fixa, que deve ser mantida em sua posição de maneira permanente ou por meio de elementos de fixação que só permitam sua remoção ou abertura com o uso de ferramentas"										
+	12	41	0	b)	"Proteção móvel, que pode ser aberta sem o uso de ferramentas, geralmente ligada por elementos mecânicos à estrutura da máquina ou a um elemento fixo próximo, e deve se associar a dispositivos de intertravamento"										
+print	12	42			"Para fins de aplicação desta Norma, consideram-se dispositivos de segurança os componentes que, por si só ou interligados ou associados a proteções, reduzam os riscos de acidentes e de outros agravos à saúde, sendo classificados em:"										
+	12	42	0	d)	Válvulas e blocos de segurança ou sistemas pneumáticos e hidráulicos de mesma eficácia										
+	12	42	0	e)	"Dispositivos mecânicos, como: dispositivos de retenção, limitadores, separadores, empurradores, inibidores, defletores e retráteis"										
+print	12	44			"A proteção deve ser móvel quando o acesso a uma zona de perigo for requerido uma ou mais vezes por turno de trabalho, observando-se que:"										
+	12	44	0	a)	A proteção deve ser associada a um dispositivo de intertravamento quando sua abertura não possibilitar o acesso à zona de perigo antes da eliminação do risco										
+	12	44	0	b)	A proteção deve ser associada a um dispositivo de intertravamento com bloqueio quando sua abertura possibilitar o acesso à zona de perigo antes da eliminação do risco										
+print	12	45			As máquinas e equipamentos dotados de proteções móveis associadas a dispositivos de intertravamento devem:										
+	12	45	0	a)	Operar somente quando as proteções estiverem fechadas										
+	12	45	0	b)	Paralisar suas funções perigosas quando as proteções forem abertas durante a operação										
+	12	45	0	c)	Garantir que o fechamento das proteções por si só não possa dar inicio às funções perigosas										
+print	12	46			Os dispositivos de intertravamento com bloqueio associados às proteções móveis das máquinas e equipamentos devem:										
+	12	46	0	a)	Permitir a operação somente enquanto a proteção estiver fechada e bloqueada										
+	12	46	0	b)	Manter a proteção fechada e bloqueada até que tenha sido eliminado o risco de lesão devido às funções perigosas da máquina ou do equipamento										
+	12	47			"As transmissões de força e os componentes móveis a elas interligados, acessíveis ou expostos, devem possuir proteções fixas, ou móveis com dispositivos de intertravamento, que impeçam o acesso por todos os lados"										
+	12	47	1		"Quando utilizadas proteções móveis para o enclausuramento de transmissões de força que possuam inércia, devem ser utilizados dispositivos de intertravamento com bloqueio"										
+	12	47	2		"O eixo cardã deve possuir proteção adequada, em perfeito estado de conservação em toda a sua extensão, fixada na tomada de força da máquina desde a cruzeta até o acoplamento do implemento ou equipamento"										
+	12	48			"As máquinas e equipamentos que ofereçam risco de ruptura de suas partes, projeção de materiais, partículas ou substâncias, devem possuir proteções que garantam a saúde e a segurança dos trabalhadores"										
+print	12	49			As proteções devem ser projetadas e construídas de modo a atender aos seguintes requisitos de segurança:										
+	12	49	0	a)	Cumprir suas  funções apropriadamente durante a vida útil  da máquina ou  possibilitar  a reposição de partes deterioradas ou danificadas										
+	12	49	0	b)	"Ser constituídas de materiais resistentes e adequados à contenção de projeção de peças, materiais e partículas"										
+	12	49	0	c)	Fixação firme e garantia de estabilidade e resistência mecânica compatíveis com os esforços requeridos										
+	12	49	0	d)	Não criar pontos de esmagamento ou agarramento com partes da máquina ou com outras proteções										
+	12	49	0	e)	Não possuir extremidades e arestas cortantes ou outras saliências perigosas										
+	12	49	0	f)	Resistir às condições ambientais do local onde estão instaladas										
+	12	49	0	g)	Impedir que possam ser burladas										
+	12	49	0	h)	Proporcionar condições de higiene e limpeza										
+	12	49	0	i)	Impedir o acesso à zona de perigo										
+	12	49	0	j)	"Ter  seus  dispositivos  de  intertravamento  protegidos  adequadamente  contra  sujidade,  poeiras  e  corrosão,  se necessário"										
+	12	49	0	k)	"Ter ação positiva, ou seja, atuação de modo positivo"										
+	12	49	0	l)	Não acarretar riscos adicionais										
+	12	50			"Quando a proteção for confeccionada com material descontínuo (Tela de proteção), devem ser observadas as distâncias de segurança para impedir o acesso às zonas de perigo, conforme previsto no Anexo I, item A (Espaços que permitam a passagem de dedos, mãos, e braços)"										
+	12	51			"Durante a utilização de proteções distantes da máquina ou equipamento com possibilidade de alguma pessoa ficar na zona de perigo, devem ser adotadas medidas adicionais de proteção coletiva para impedir a partida da máquina enquanto houver pessoas nessa zona"										
+	12	52			As proteções também utilizadas como meio de acesso por exigência das características da máquina ou do equipamento devem atender aos requisitos de resistência e segurança adequados a ambas as finalidades										
+	12	53			"Deve haver proteção no fundo dos degraus da escada, ou seja, nos espelhos, sempre que uma parte saliente do pé ou da mão possa contatar uma zona perigosa"										
+print	12	54			"As proteções, dispositivos e sistemas de segurança devem integrar as máquinas e equipamentos, e não podem ser considerados itens opcionais para qualquer fim"										
+	12	55			"Em função do risco, poderá ser exigido projeto, diagrama ou representação esquemática dos sistemas de segurança de máquinas, com respectivas especificações técnicas em língua portuguesa"										
+	12	55	1		"Quando a máquina não possuir a documentação técnica exigida, o seu proprietário deve constituí-la, sob a responsabilidade de profissional legalmente habilitado e com respectiva Anotação de Responsabilidade Técnica do Conselho Regional de Engenharia e Arquitetura - ART/CREA"										
+section	6				DISPOSITIVOS DE PARADA DE EMERGÊNCIA										
+	12	56			"As máquinas devem ser equipadas com um ou mais dispositivos de parada de emergência, por meio dos quais possam ser evitadas situações de perigo latentes e existentes"										
+	12	56	1		Os dispositivos de parada de emergência não devem ser  utilizados como dispositivos de partida ou  de acionamento										
+	12	56	2		"Excetuam-se da obrigação do subitem 12.56.1 as máquinas manuais, as máquinas autopropelidas e aquelas nas quais o dispositivo de parada de emergência não possibilita a redução do risco"										
+	12	57			"Os dispositivos de parada de emergência devem ser posicionados em locais de fácil acesso e visualização pelos operadores em seus postos de trabalho e por outras pessoas, e mantidos permanentemente desobstruídos"										
+print	12	58			Os dispositivos de parada de emergência devem:										
+	12	58	0	a)	"Ser selecionados, montados e interconectados de forma a suportar as condições de operação previstas, bem como as influências do meio"										
+	12	58	0	b)	"Ser usados como medida auxiliar, não podendo ser alternativa a medidas adequadas de proteção ou a sistemas automáticos de segurança"										
+	12	58	0	c)	Possuir acionadores projetados para fácil atuação do operador ou outros que possam necessitar da sua utilização										
+	12	58	0	d)	Prevalecer sobre todos os outros comandos										
+	12	58	0	e)	"Provocar a parada da operação ou processo perigoso em período de tempo tão reduzido quanto tecnicamente possível, sem provocar riscos suplementares"										
+	12	58	0	f)	Ser mantidos sob monitoramento por meio de sistemas de segurança										
+	12	58	0	g)	Ser mantidos em perfeito estado de funcionamento										
+print	12	59			A função parada de emergência não deve:										
+	12	59		a)	Prejudicar a eficiência de sistemas de segurança ou dispositivos com funções relacionadas com a segurança										
+	12	59		b)	Prejudicar qualquer meio projetado para resgatar pessoas acidentadas										
+	12	59		c)	Gerar risco adicional										
+	12	60			"O acionamento do dispositivo de parada de emergência deve também resultar na retenção do acionador, de tal forma que quando a ação no acionador for descontinuada, este se mantenha retido até que seja desacionado"										
+	12	60	1		"O desacionamento deve  ser  possível  apenas como resultado de uma ação manual  intencionada sobre  o acionador, por meio de manobra apropriada"										
+print	12	61			"Quando usados acionadores do tipo cabo, deve-se:"										
+	12	61	0	a)	"Utilizar chaves de parada de emergência que trabalhem tracionadas, de modo a cessarem automaticamente as funções perigosas da máquina em caso de ruptura ou afrouxamento dos cabos"										
+	12	61	0	b)	"Considerar o deslocamento e a força aplicada nos acionadores, necessários para a atuação das chaves de parada de emergência"										
+	12	61	0	c)	Obedecer à distância máxima entre as chaves de parada de emergência recomendada pelo fabricante										
+	12	62			As chaves de parada de emergência devem ser localizadas de tal forma que todo o cabo de acionamento seja visível a partir da posição de desacionamento da parada de emergência										
+	12	62	1		"Se não for possível o cumprimento da exigência do item 12.62, deve-se garantir que, após a atuação e antes do desacionamento, a máquina ou equipamento seja inspecionado em toda a extensão do cabo"										
+	12	63	1		A localização dos acionadores de rearme deve permitir uma visualização completa da área protegida pelo cabo										
+section	7				MEIOS DE ACESSO PERMANENTES										
+	12	64			"As máquinas e equipamentos devem possuir acessos permanentemente fixados e seguros a todos os seus pontos de operação, abastecimento, inserção de matérias-primas e retirada de produtos trabalhados, preparação, manutenção e intervenção constante"										
+	12	64	1		"Consideram-se meios de acesso elevadores, rampas, passarelas, plataformas ou escadas de degraus"										
+	12	64	2		"Na impossibilidade técnica de adoção dos meios previstos no subitem 12.64.1, poderá ser utilizada escada fixa tipo marinheiro"										
+	12	64	3		"Nas máquinas e equipamentos, os meios de acesso permanentes devem ser localizados e instalados de modo a prevenir riscos de acidente e facilitar o seu acesso e utilização pelos trabalhadores"										
+	12	65			"O emprego dos meios de acesso deve considerar o ângulo de lance conforme Figura 1 do Anexo III ( Rampa 0° a 10°, Rampa + Antiderrapante 10° a 20°, Escada com espelho 45° a 60° e Escada Tipo Marinheiro  75° a 90°)"										
+	12	66			"Os locais ou postos de trabalho acima do nível do solo em que haja acesso de trabalhadores, para comando ou quaisquer outras intervenções habituais nas máquinas e equipamentos, como operação, abastecimento, manutenção, preparação e inspeção, devem possuir plataformas de trabalho estáveis e seguras"										
+	12	66	1		"Na impossibilidade técnica de aplicação do previsto no item 12.66, poderá ser adotado o uso de plataformas móveis ou elevatórias"										
+	12	67			"As plataformas móveis devem ser estáveis, de modo a não permitir sua movimentação ou tombamento durante a realização do trabalho"										
+print	12	68			"As passarelas, plataformas, rampas e escadas de degraus devem propiciar  condições seguras de trabalho, circulação, movimentação e manuseio de materiais e:"										
+	12	68	0	a)	"Ser dimensionadas, construídas e fixadas de modo seguro e resistente, de forma a suportar os esforços solicitantes e movimentação segura do trabalhador"										
+	12	68	0	b)	Ter pisos e degraus constituídos de materiais ou revestimentos antiderrapantes										
+	12	68	0	c)	Ser mantidas desobstruídas										
+	12	68	0	d)	"Ser localizadas e instaladas de  modo a prevenir  riscos de queda,  escorregamento,  tropeçamento e dispêndio excessivo de esforços físicos pelos trabalhadores ao utilizá-las"										
+	12	69			"As rampas com inclinação entre 10º (dez) e 20º (vinte) graus em relação ao plano horizontal devem possuir peças transversais horizontais fixadas de modo seguro, para impedir escorregamento, distanciadas entre si 0,40 m (quarenta centímetros) em toda sua extensão quando o piso não for antiderrapante"										
+	12	69	1		É proibida a construção de rampas com inclinação superior a 20º (vinte) graus em relação ao piso										
+print	12	70			"Os meios de acesso, exceto escada fixa do tipo marinheiro e elevador, devem possuir sistema de proteção contra quedas com as seguintes características:"										
+	12	70	0	a)	"Ser dimensionados, construídos e fixados de modo seguro e resistente, de forma a suportar os esforços solicitantes"										
+	12	70	0	b)	Ser constituídos de material resistente a intempéries e corrosão;										
+	12	70	0	c)	"Possuir travessão superior de 1,10 m (um metro e dez centímetros) a 1,20 m (um metro e vinte centímetros) de altura em relação ao piso ao longo de toda a extensão, em ambos os lados"										
+	12	70	0	d)	"O travessão superior não deve possuir superfície plana, a fim de evitar a colocação de objetos"										
+	12	70	0	e)	"Possuir rodapé de, no mínimo, 0,20 m (vinte centímetros) de altura e travessão intermediário a 0,70 m (setenta centímetros) de altura em relação ao piso, localizado entre o rodapé e o travessão superior"										
+	12	71			"Havendo risco de queda de objetos e materiais, o vão entre o rodapé e o travessão superior do guarda corpo deve receber proteção fixa, integral e resistente"										
+	12	71	1		"A proteção mencionada no item 12.71 pode ser constituída de tela resistente, desde que sua malha não permita a passagem de qualquer objeto ou material que possa causar lesões aos trabalhadores"										
+	12	72			"Para o sistema de proteção contra quedas em plataformas utilizadas em operações de abastecimento ou que acumulam sujidades, é permitida a adoção das dimensões da Figura 5 do Anexo III"										
+print	12	73			"As passarelas, plataformas e rampas devem ter as seguintes características:"										
+	12	73	0	a)	"Largura útil mínima de 0,60 m (sessenta centímetros)"										
+	12	73	0	b)	"Meios de drenagem, se necessário"										
+	12	73	0	c)	Não possuir rodapé no vão de acesso										
+print	12	74			As escadas de degraus sem espelho devem ter:										
+	12	74	0	a)	"Largura de 0,60 m (sessenta centímetros) a 0,80 m (oitenta centímetros)"										
+	12	74	0	b)	"Degraus com profundidade mínima de 0,15 m (quinze centímetros)"										
+	12	74	0	c)	"Degraus e lances uniformes, nivelados e sem saliências"										
+	12	74	0	d)	"Altura máxima entre os degraus de 0,25 m (vinte e cinco centímetros)"										
+	12	74	0	e)	"Plataforma de descanso com 0,60m (sessenta centímetros) a 0,80 m (oitenta centímetros) de largura e comprimento a intervalos de, no máximo, 3,00 m (três metros) de altura"										
+	12	74	0	f)	"Projeção mínima de 0,01 m (dez milímetros) de um degrau sobre o outro"										
+	12	74	0	g)	"Degraus com profundidade que atendam à fórmula: 600 = g +2h = 660 (dimensões em milímetros), conforme Figura 2 do Anexo III"										
+print	12	75			As escadas de degraus com espelho devem ter:										
+	12	75	0	a)	"Largura de 0,60 m (sessenta centímetros) a 0,80 m (oitenta centímetros)"										
+	12	75	0	b)	"Degraus com profundidade mínima de 0,20 m (vinte centímetros)"										
+	12	75	0	c)	"Degraus e lances uniformes, nivelados e sem saliências"										
+	12	75	0	d)	"Altura entre os degraus de 0,20 m (vinte centímetros) a 0,25 m (vinte e cinco centímetros)"										
+	12	75	0	e)	"Plataforma de descanso de 0,60m (sessenta centímetros) a 0,80m (oitenta centímetros) de largura e comprimento a intervalos de, no máximo, 3,00 m (três metros) de altura"										
+print	12	76			As escadas fixas do tipo marinheiro devem ter:										
+	12	76	0	a)	"Dimensionamento, construção e fixação seguras e resistentes, de forma a suportar os esforços solicitantes"										
+	12	76	0	b)	"Constituição de materiais ou revestimentos resistentes a intempéries e corrosão, caso estejam expostas em ambiente externo ou corrosivo"										
+	12	76	0	c)	"Gaiolas de proteção, caso possuam altura superior a 3,50 m (três metros e meio), instaladas a partir de 2,0 m (dois metros) do piso, ultrapassando a plataforma de descanso ou o piso superior em pelo menos de 1,10 m (um metro e dez centímetros) a 1,20 m (um metro e vinte centímetros)"										
+	12	76	0	d)	"Corrimão ou continuação dos montantes da escada ultrapassando a plataforma de descanso ou o piso superior de 1,10 m (um metro e dez centímetros) a 1,20 m (um metro e vinte centímetros)"										
+	12	76	0	e)	"Largura de 0,40 m (quarenta centímetros) a 0,60 m (sessenta centímetros), conforme Figura 3 do Anexo III"										
+	12	76	0	f)	"Altura total máxima de 10,00 m (dez metros), se for de um único lance"										
+	12	76	0	g)	"Altura máxima de 6,00 m (seis metros) entre duas plataformas de descanso, se for de múltiplos lances, construídas em lances consecutivos com eixos paralelos, distanciados no mínimo em 0,70 m (setenta centímetros), conforme Figura 3 do Anexo III"										
+	12	76	0	h)	"Espaçamento entre barras horizontais de 0,25 m (vinte e cinco centímetros) a 0,30 m (trinta centímetros), conforme Figura 3 do Anexo III"										
+	12	76	0	i)	"Espaçamento entre o piso da máquina ou da edificação e a primeira barra não superior a 0,55 m (cinqüenta e cinco centímetros), conforme Figura 3 do Anexo III"										
+	12	76	0	j)	"Distância em relação à estrutura em que é fixada de, no mínimo, 0,15 m (quinze centímetros), conforme Figura 4C do Anexo III"										
+	12	76	0	k)	"Barras horizontais de 0,025m (vinte e cinco milímetros) a 0,038 m (trinta e oito milímetros) de diâmetro ou espessura"										
+	12	76	0	l)	"Barras horizontais com superfícies, formas ou ranhuras a fim de prevenir deslizamentos."										
+print	12	76	1		"As gaiolas de proteção devem ter  diâmetro de 0,65m (sessenta e cinco centímetros) a 0,80 m (oitenta centímetros), conforme Figura 4 C do Anexo III:"										
+	12	76	1	a)	"Possuir barras verticais com espaçamento máximo de 0,30m (trinta centímetros) entre si e distância máxima de 1,50m (um metro e cinquenta centímetros) entre arcos, conforme figuras 4A e 4B do Anexo III"										
+	12	76	1	b)	"Vãos entre arcos de, no máximo, 0,30m (trinta centímetros), conforme Figura 3 do Anexo III, dotadas de barra vertical de sustentação dos arcos."										
+section	8				COMPONENTES PRESSURIZADOS										
+	12	77			"Devem  ser  adotadas  medidas  adicionais  de  proteção  das  mangueiras,  tubulações  e  demais  componentes pressurizados sujeitos a eventuais impactos mecânicos e outros agentes agressivos, quando houver risco"										
+	12	78			"As mangueiras, tubulações e demais componentes pressurizados devem ser localizados ou protegidos de tal forma que uma situação de ruptura destes componentes e vazamentos de fluidos, não possa ocasionar acidentes de trabalho"										
+	12	79			As mangueiras utilizadas nos sistemas pressurizados devem possuir indicação da pressão máxima de trabalho admissível especificada pelo fabricante										
+print	12	80			Os sistemas pressurizados das máquinas devem possuir meios ou dispositivos destinados a garantir que:										
+	12	80	0	a)	A pressão máxima de trabalho admissível nos circuitos não possa ser excedida										
+	12	80	0	b)	Quedas de pressão progressivas ou bruscas e perdas de vácuo não possam gerar perigo										
+	12	81			"Quando as fontes de energia da máquina forem isoladas, a pressão residual dos reservatórios e de depósitos similares, como os acumuladores hidropneumáticos, não pode gerar risco de acidentes"										
+	12	82			"Os recipientes contendo gases comprimidos utilizados em máquinas e equipamentos devem permanecer em perfeito estado de conservação e funcionamento e ser armazenados em depósitos bem ventilados, protegidos contra quedas, calor e impactos acidentais"										
+print	12	83			"Nas atividades de montagem e desmontagem de pneumáticos das rodas das máquinas e equipamentos não estacionários, que ofereçam riscos de acidentes, devem ser observadas as seguintes condições:"										
+	12	83	0	a)	"Os pneumáticos devem ser completamente despressurizados, removendo o núcleo da válvula de calibragem antes da desmontagem e de qualquer intervenção que possa acarretar acidentes"										
+	12	83	0	b)	"O enchimento de pneumáticos só poderá ser executado dentro de dispositivo de clausura ou gaiola adequadamente dimensionada, até que seja alcançada uma pressão suficiente para forçar o talão sobre o aro e criar uma vedação pneumática"										
+	12	84			"Em sistemas pneumáticos e hidráulicos que utilizam dois ou mais estágios com diferentes pressões como medida de proteção, a força exercida no percurso ou circuito de segurança - aproximação - não pode ser suficiente para provocar danos à integridade física dos trabalhadores"										
+	12	84	1		"Para o atendimento ao disposto no item 12.84, a força exercida no percurso ou circuito de segurança deve estar limitada a 150 N (cento e cinquenta Newtons) e a pressão de contato limitada a 50 N/cm2 (cinquenta Newtons por centímetro quadrado), exceto nos casos em que haja previsão de outros valores em normas técnicas oficiais vigentes especificas"										
+section	9				TRANSPORTADORES DE MATERIAIS										
+	12	85			"Os movimentos perigosos dos transportadores contínuos de materiais devem ser protegidos, especialmente nos pontos de esmagamento, agarramento e aprisionamento formados pelas esteiras, correias, roletes, acoplamentos, freios, roldanas, amostradores, volantes, tambores, engrenagens, cremalheiras, correntes, guias, alinhadores, região do esticamento e contrapeso e outras partes móveis acessíveis durante a operação normal"										
+	12	85	1		"Os transportadores contínuos de correia cuja altura da borda da correia que transporta a carga esteja superior a 2,70 m (dois metros e setenta centímetros) do piso estão dispensados da observância do item 12.85, desde que não haja circulação nem permanência de pessoas nas zonas de perigo"										
+	12	85	2		"Os transportadores contínuos de correia em que haja proteção fixa distante, associada a proteção móvel intertravada que restrinja o acesso a pessoal especializado para a realização de inspeções, manutenções e outras intervenções necessárias, estão dispensados da observância do item 12.85, desde que atendido o disposto no item 12.51."										
+	12	86			"Os transportadores contínuos de correia, cuja altura da borda da correia que transporta a carga esteja superior a 2,70 m (dois metros e setenta centímetros) do piso, devem possuir, em toda a sua extensão, passarelas em ambos os lados, atendidos os requisitos do item 12.66"										
+	12	86	1		"Os transportadores cuja correia tenha largura de até 762 mm (setecentos e sessenta e dois milímetros ou 30 (trinta) polegadas podem possuir passarela em apenas um dos lados, devendo-se adotar o uso de plataformas móveis ou elevatórias para quaisquer intervenções e inspeções"										
+	12	86	2		Os transportadores móveis articulados em que haja possibilidade de realização de quaisquer intervenções e inspeções a partir do solo ficam dispensados da exigência do item 12.86										
+	12	87			Os transportadores de materiais somente devem ser utilizados para o tipo e capacidade de carga para os quais foram projetados										
+	12	88			"Os cabos de aço, correntes, eslingas, ganchos e outros elementos de suspensão ou tração e suas conexões devem ser adequados ao tipo de material e dimensionados para suportar os esforços solicitantes"										
+	12	89			Nos transportadores contínuos de materiais que necessitem de parada durante o processo é proibida a reversão de movimento para esta finalidade										
+	12	90			"É proibida a permanência e a circulação de pessoas sobre partes em movimento, ou que possam ficar em movimento, dos transportadores de materiais, quando não projetadas para essas finalidades"										
+	12	90	1		"Nas situações em que haja inviabilidade técnica do cumprimento do disposto no item 12.90 devem ser adotadas medidas que garantam a paralisação e o bloqueio dos movimentos de risco, conforme o disposto no item 12.113 e subitem 12.113.1. (Bloqueio Eletromecânico)"										
+	12	90	2		"A permanência e a circulação de pessoas sobre os transportadores contínuos devem ser realizadas por meio de passarelas com sistema de proteção contra quedas, conforme item 12.70"										
+	12	90	3		É permitida a permanência e a circulação de pessoas sob os transportadores contínuos somente em locais protegidos que ofereçam resistência e dimensões adequadas contra quedas de materiais										
+	12	91			"Os transportadores contínuos acessíveis aos trabalhadores devem dispor, ao longo de sua extensão, de dispositivos de parada de emergência, de modo que possam ser acionados em todas as posições de trabalho"										
+	12	91	1		Os transportadores contínuos acessíveis aos trabalhadores ficam dispensados do cumprimento da exigência do item 12.91 se a análise de risco assim indicar										
+print	12	92			"Os transportadores contínuos de correia devem possuir dispositivos que garantam a segurança em caso de falha durante sua operação normal e interrompam seu funcionamento quando forem atingidos os limites de segurança, conforme especificado em projeto, e devem contemplar, no mínimo, as seguintes condições:"										
+	12	92	0	a)	Desalinhamento anormal da correia										
+	12	92	0	b)	Sobrecarga de materiais										
+	12	93			Durante o transporte de materiais suspensos devem ser adotadas medidas de segurança visando a garantir que não haja pessoas sob a carga										
+	12	93	1		As medidas de segurança previstas no item 12.93 devem priorizar a existência de áreas exclusivas para a circulação de cargas suspensas devidamente delimitadas e sinalizadas										
+section	10				ASPECTOS ERGONÔMICOS										
+print	12	94			"As máquinas e equipamentos devem ser projetados, construídos e mantidos com observância aos os seguintes aspectos:"										
+	12	94	0	a)	Atendimento da variabilidade das características antropométricas dos operadores										
+	12	94	0	b)	"Respeito às exigências posturais, cognitivas, movimentos e esforços físicos demandados pelos operadores"										
+	12	94	0	c)	"Os componentes como monitores de vídeo, sinais e comandos, devem possibilitar a interação clara e precisa com o operador de forma a reduzir possibilidades de erros de interpretação ou retorno de informação"										
+	12	94	0	d)	"Os comandos e indicadores devem representar, sempre que possível, a direção do movimento e demais efeitos correspondentes"										
+	12	94	0	e)	"Os sistemas interativos, como ícones, símbolos e instruções devem ser coerentes em sua aparência e função"										
+	12	94	0	f)	"Favorecimento do desempenho e a confiabilidade das operações, com redução da probabilidade de falhas na operação"										
+	12	94	0	g)	"Redução da exigência de força, pressão, preensão, flexão, extensão ou torção dos segmentos corporais"										
+	12	94	0	h)	"A iluminação deve ser adequada e ficar disponível em situações de emergência, quando exigido o ingresso em seu interior"										
+print	12	95			"Os comandos das máquinas e equipamentos devem ser projetados, construídos e mantidos com observância aos seguintes aspectos:"										
+	12	95	0	a)	Localização e distância de forma a permitir manejo fácil e seguro										
+	12	95	0	b)	Instalação dos comandos mais utilizados em posições mais acessíveis ao operador										
+	12	95	0	c)	"Visibilidade, identificação e sinalização que permita serem distinguíveis entre si"										
+	12	95	0	d)	Instalação dos elementos de acionamento manual ou a pedal de forma a facilitar a execução da manobra levando em consideração as características biomecânicas e antropométricas dos operadores										
+	12	95	0	e)	Garantia de manobras seguras e rápidas e proteção de forma a evitar movimentos involuntários										
+	12	96			"As Máquinas e equipamentos devem ser projetados, construídos e operados levando em consideração a necessidade de adaptação das condições de trabalho às características psicofisiológicas dos trabalhadores e à natureza dos trabalhos a executar, oferecendo condições de conforto e segurança no trabalho, observado o disposto na NR-17"										
+	12	97			"Os assentos utilizados na operação de máquinas devem possuir estofamento e ser ajustáveis à natureza do trabalho executado, além do previsto no subitem 17.3.3 da NR-17"										
+	12	98			"Os postos de trabalho devem ser projetados para permitir a alternância de postura e a movimentação adequada dos segmentos corporais, garantindo espaço suficiente para operação dos controles nele instalados"										
+	12	99			"As superfícies dos postos de trabalho não devem possuir cantos vivos, superfícies ásperas, cortantes e quinas em ângulos agudos ou rebarbas nos pontos de contato com segmentos do corpo do operador, e os elementos de fixação, como pregos, rebites e parafusos, devem ser mantidos de forma a não acrescentar riscos à operação"										
+	12	100			Os postos de trabalho das máquinas e equipamentos devem permitir o apoio integral das plantas dos pés no piso										
+	12	100	1		"Deve ser fornecido apoio para os pés quando os pés do operador não alcançarem o piso, mesmo após a regulagem do assento"										
+print	12	101			As dimensões dos postos de trabalho das máquinas e equipamentos devem:										
+	12	101	0	a)	"Atender às características antropométricas e biomecânicas do operador, com respeito aos alcances dos segmentos corporais e da visão"										
+	12	101	0	b)	"Assegurar a postura adequada, de forma a garantir posições confortáveis dos segmentos corporais na posição de trabalho"										
+	12	101	0	c)	"Evitar a flexão e a torção do tronco de forma a respeitar os ângulos e trajetórias naturais dos movimentos corpóreos, durante a execução das tarefas"										
+	12	102			"Os locais destinados ao manuseio de materiais em processos nas máquinas e equipamentos devem ter altura e ser posicionados de forma a garantir boas condições de postura, visualização, movimentação e operação"										
+	12	103			"Os locais de trabalho das máquinas e equipamentos devem possuir sistema de iluminação permanente que possibilite boa visibilidade dos detalhes do trabalho, para evitar zonas de sombra ou de penumbra e efeito estroboscópico"										
+	12	103	1		"A iluminação das partes internas das máquinas e equipamentos que requeiram operações de ajustes, inspeção, manutenção ou outras intervenções periódicas deve ser adequada e estar disponível em situações de emergência, quando for exigido o ingresso de pessoas, com observância, ainda das exigências específicas para áreas classificadas"										
+	12	104			"O ritmo de trabalho e a velocidade das máquinas e equipamentos devem ser compatíveis com a capacidade física dos operadores, de modo a evitar agravos à saúde"										
+	12	105			"O bocal de abastecimento do tanque de combustível e de outros materiais deve ser localizado, no máximo, a 1,50 m (um metro e cinquenta centímetros) acima do piso ou de uma plataforma de apoio para execução da tarefa"										
+section	11				RISCOS ADICIONAIS										
+print	12	106			"Para fins de aplicação desta Norma, devem ser considerados os seguintes riscos adicionais:"										
+	12	106	0	a)	"Substâncias perigosas quaisquer, sejam agentes biológicos ou agentes químicos em estado sólido, líquido ou gasoso, que apresentem riscos à saúde ou integridade física dos trabalhadores por meio de inalação, ingestão ou contato com a pele, olhos ou mucosas"										
+	12	106	0	b)	"Radiações ionizantes geradas pelas máquinas e equipamentos ou provenientes de substâncias radiativas por eles utilizadas, processadas ou produzidas"										
+	12	106	0	c)	Radiações não ionizantes com potencial de causar danos à saúde ou integridade física dos trabalhadores										
+	12	106	0	d)	Vibrações										
+	12	106	0	e)	Ruído										
+	12	106	0	f)	Calor										
+	12	106	0	g)	"Combustíveis, inflamáveis, explosivos e substâncias que reagem perigosamente"										
+	12	106	0	h)	Superfícies aquecidas acessíveis que apresentem risco de queimaduras causadas pelo contato com a pele										
+	12	107			"Devem ser adotadas medidas de controle dos riscos adicionais provenientes da emissão ou liberação de agentes químicos, físicos e biológicos pelas máquinas e equipamentos, com prioridade à sua eliminação, redução de sua emissão ou liberação e redução da exposição dos trabalhadores, nessa ordem"										
+	12	108			"As máquinas e equipamentos que utilizem, processem ou produzam combustíveis, inflamáveis, explosivos ou substâncias que reagem perigosamente devem oferecer medidas de proteção contra sua emissão, liberação, combustão, explosão e reação acidentais, bem como a ocorrência de incêndio"										
+	12	109			"Devem ser adotadas medidas de proteção contra queimaduras causadas pelo contato da pele com superfícies aquecidas de máquinas e equipamentos, tais como a redução da temperatura superficial, isolação com materiais apropriados e barreiras, sempre que a temperatura da superfície for maior do que o limiar de queimaduras do material do qual é constituída, para um determinado período de contato"										
+	12	110			Devem ser elaborados e aplicados procedimentos de segurança e permissão de trabalho para garantir a utilização segura de máquinas e equipamentos em trabalhos em espaços confinados										
+section	12				"MANUTENÇÃO, INPEÇÃO, PREPARAÇÃO, AJUSTES E REPAROS"										
+	12	111			"As máquinas e equipamentos devem ser submetidos à manutenção preventiva e corretiva, na forma e periodicidade determinada pelo fabricante, conforme as normas técnicas oficiais nacionais vigentes e, na falta destas, as normas técnicas internacionais"										
+print	12	113	1		"Para situações especiais de regulagem, ajuste, limpeza, pesquisa de defeitos e inconformidades, em que não seja possível o cumprimento das condições estabelecidas no item 12.113, e em outras situações que impliquem a redução do nível de segurança das máquinas e equipamentos e houver necessidade de acesso às zonas de perigo, deve ser possível selecionar um modo de operação que:"										
+	12	113	1	a)	Torne inoperante o modo de comando automático										
+	12	113	1	b)	"Permita a realização dos serviços com o uso de dispositivo de acionamento de ação continuada associado à redução da velocidade, ou dispositivos de comando por movimento limitado"										
+	12	113	1	c)	Impeça a mudança por trabalhadores não autorizados										
+	12	113	1	d)	A seleção corresponda a um único modo de comando ou de funcionamento										
+	12	113	1	e)	"Quando selecionado, tenha prioridade sobre todos os outros sistemas de comando, com exceção da parada de emergência"										
+	12	113	1	f)	"Torne a seleção visível, clara e facilmente identificável"										
+	12	115			"Nas manutenções das máquinas e equipamentos, sempre que detectado qualquer defeito em peça ou componente que comprometa a segurança, deve ser providenciada sua reparação ou substituição imediata por outra peça ou componente original ou equivalente, de modo a garantir as mesmas características e condições seguras de uso"										
+section	13				SINALIZAÇÃO										
+	12	116			"As máquinas e equipamentos, bem como as instalações em que se encontram, devem possuir sinalização de segurança para advertir os trabalhadores e terceiros sobre os riscos a que estão expostos, as instruções de operação e manutenção e outras informações necessárias para garantir a integridade física e a saúde dos trabalhadores"										
+	12	116	1		"A sinalização de segurança compreende a utilização de cores, símbolos, inscrições, sinais luminosos ou sonoros, entre outras formas de comunicação de mesma eficácia"										
+	12	116	2		"A sinalização, inclusive cores, das máquinas e equipamentos utilizadas nos setores alimentícios, médico e farmacêutico deve respeitar a legislação sanitária vigente, sem prejuízo da segurança e saúde dos trabalhadores ou terceiros"										
+	12	116	3		A sinalização de segurança deve ser adotada em todas as fases de utilização e vida útil das máquinas e equipamentos										
+print	12	117			A sinalização de segurança deve:										
+	12	117	0	a)	Ficar destacada na máquina ou equipamento										
+	12	117	0	b)	Ficar em localização claramente visível										
+	12	117	0	c)	Ser de fácil compreensão										
+	12	118			"Os símbolos, inscrições e sinais luminosos e sonoros devem seguir os padrões estabelecidos pelas normas técnicas nacionais vigentes e, na falta dessas, pelas normas técnicas internacionais"										
+print	12	119			As inscrições das máquinas e equipamentos devem:										
+	12	119	0	a)	Ser escritas na língua portuguesa - Brasil										
+	12	119	0	b)	Ser legíveis										
+	12	119	1		"As inscrições devem indicar claramente o risco e a parte da máquina ou equipamento a que se referem, e não deve ser utilizada somente a inscrição de “perigo”"										
+	12	120			As inscrições e símbolos devem ser utilizados nas máquinas e equipamentos para indicar as suas especificações e limitações técnicas										
+print	12	122			"Exceto quando houver previsão em outras Normas Regulamentadoras, devem ser adotadas as seguintes cores para a sinalização de segurança das máquinas e equipamentos:"										
+print	12	122	a)	a)	a) Amarelo										
+	12		a)	A.1	"1. Proteções  fixas  e  móveis  -  exceto  quando  os  movimentos  perigosos  estiverem  enclausurados  na  própria carenagem ou estrutura da máquina ou equipamento, ou quando tecnicamente inviável"										
+	12		a)	CB	"2. Componentes mecânicos de retenção, dispositivos e outras partes destinadas à segurança"										
+	12		a)	CB	"3. Gaiolas das escadas, corrimãos e sistemas de guarda-corpo e rodapé"										
+print	12		b)	b)	b) Azul 										
+	12		b)	CB	Comunicação de paralisação e bloqueio de segurança para manutenção.										
+print	12	123			"As máquinas e equipamentos fabricados a partir da vigência desta Norma devem possuir em local visível as informações indeléveis, contendo no mínimo:"										
+	12	123	0	a)	"Razão social, CNPJ e endereço do fabricante ou importador"										
+	12	123	0	b)	"Informação sobre tipo, modelo e capacidade"										
+	12	123	0	c)	"Número de série ou identificação, e ano de fabricação"										
+	12	123	0	d)	Número de registro do fabricante ou importador no CREA										
+	12	123	0	e)	Peso da máquina ou equipamento										
+	12	124			"Para advertir os trabalhadores sobre os possíveis perigos, devem ser instalados, se necessários, dispositivos indicadores de leitura qualitativa ou quantitativa ou de controle de segurança. (Adesivos coloridos estilo inmetro)"										
+	12	124	1		Os indicadores devem ser de fácil leitura e distinguíveis uns dos outros.										
+section	14				MANUAIS										
+	12	125			"As máquinas e equipamentos devem possuir manual de instruções fornecido pelo fabricante ou importador, com informações relativas à segurança em todas as fases de utilização"										
+	12	126			"Quando inexistente ou extraviado, o manual de máquinas ou equipamentos que apresentem riscos deve ser reconstituído pelo empregador, sob a responsabilidade de profissional legalmente habilitado"										
+print	12	127			Os manuais devem:										
+	12	127	0	a)	"Ser escritos na língua portuguesa - Brasil, com caracteres de tipo e tamanho que possibilitem a melhor legibilidade possível, acompanhado das ilustrações explicativas"										
+	12	127	0	b)	"Ser objetivos, claros, sem ambiguidades e em linguagem de fácil compreensão"										
+	12	127	0	c)	Ter sinais ou avisos referentes à segurança realçados										
+	12	127	0	d)	Permanecer disponíveis a todos os usuários nos locais de trabalho										
+print	12	128			"Os manuais das máquinas e equipamentos fabricados ou importados a partir da vigência desta Norma devem conter, no mínimo, as seguintes informações:"										
+	12	128	0	a)	"Razão social, CNPJ e endereço do fabricante ou importador"										
+	12	128	0	b)	"Tipo, modelo e capacidade"										
+	12	128	0	c)	Número de série ou número de identificação e ano de fabricação										
+	12	128	0	d)	Normas observadas para o projeto e construção da máquina ou equipamento										
+	12	128	0	e)	Descrição detalhada da máquina ou equipamento e seus acessórios										
+	12	128	0	f)	"Diagramas, inclusive circuitos elétricos, em especial a representação esquemática das funções de segurança"										
+	12	128	0	g)	Definição da utilização prevista para a máquina ou equipamento										
+	12	128	0	h)	"Riscos a que estão expostos os usuários, com as respectivas avaliações quantitativas de emissões geradas pela máquina ou equipamento em sua capacidade máxima de utilização"										
+	12	128	0	i)	Definição das medidas de segurança existentes e daquelas a serem adotadas pelos usuários										
+	12	128	0	j)	Especificações e limitações técnicas para a sua utilização com segurança										
+	12	128	0	k)	Riscos que podem resultar de adulteração ou supressão de proteções e dispositivos de segurança										
+	12	128	0	l)	Riscos que podem resultar de utilizações diferentes daquelas previstas no projeto										
+	12	128	0	m)	Procedimentos para utilização da máquina ou equipamento com segurança										
+	12	128	0	n)	Procedimentos e periodicidade para inspeções e manutenção										
+	12	128	0	o)	Procedimentos a serem adotados em situações de emergência										
+	12	128	0	p)	Indicação da vida útil da máquina ou equipamento e dos componentes relacionados com a segurança										
+	12	129			"No caso de máquinas e equipamentos fabricados ou importados antes da vigéncia desta norma, os manuais reconstituídos devem conter, no mínimo, as informações previstas nas alíneas ""b"", ""e"", ""f"", ""g"", ""i"", ""j"", ""k"", ""m"", ""n"" e ""o"" do item 12.128."										
+section	18				OUTROS REQUISITOS ESPECÍFICOS DE SEGURANÇA										
+	12	148			As ferramentas e materiais utilizados nas intervenções em máquinas e equipamentos devem ser adequados às operações realizadas										
+	12	149			Os acessórios e ferramental utilizados pelas máquinas e equipamentos devem ser adequados às operações realizadas										
+	12	150			É proibido o porte de ferramentas manuais em bolsos ou locais não apropriados a essa finalidade										
+	12	151			"As máquinas e equipamentos tracionados devem possuir sistemas de engate padronizado para reboque pelo sistema de tração, de modo a assegurar o acoplamento e desacoplamento fácil e seguro, bem como a impedir o desacoplamento acidental durante a utilização"										
+	12	151	1		A indicação de uso dos sistemas de engate padronizado mencionados no item 12.151 deve ficar em local de fácil visualização e afixada em local próximo da conexão										
+	12	151	2		"Os equipamentos tracionados, caso o peso da barra do reboque assim o exija, devem possuir dispositivo de apoio que possibilite a redução do esforço e a conexão segura ao sistema de tração"										
+	12	151	3		A operação de engate deve ser feita em local apropriado e com o equipamento tracionado imobilizado de forma segura com calço ou similar										
+	12	152			"Para fins de aplicação desta Norma, os Anexos contemplam obrigações, disposições especiais ou exceções que se aplicam a um determinado tipo de máquina ou equipamento, em caráter prioritário aos demais requisitos desta Norma, sem prejuízo ao disposto em Norma Regulamentadora específica."										

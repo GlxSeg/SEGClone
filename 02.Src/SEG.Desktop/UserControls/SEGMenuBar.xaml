@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="SEG.Desktop.UserControls.SEGMenuBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="700">
+    <Grid>
+        <Canvas x:Name="c" Background="#FF00556E">
+            <Canvas x:Name="bcMenu" HorizontalAlignment="Left" Height="100" Margin="0,0,0,0" VerticalAlignment="Top" Width="100" Background="#FFFAA519" MouseDown="bcMenu_MouseDown" Canvas.Left="0" Canvas.Top="0">
+                <Rectangle x:Name="r1" Fill="White" Height="8" Canvas.Left="25" Canvas.Top="30" Width="50"/>
+                <Rectangle x:Name="r2" Fill="White" Height="8" Canvas.Left="25" Canvas.Top="46" Width="50"/>
+                <Rectangle x:Name="r3" Fill="White" Height="8" Canvas.Left="25" Canvas.Top="62" Width="50"/>
+            </Canvas>
+            <Canvas x:Name="cInfo" HorizontalAlignment="Left" Height="100" Margin="0,0,0,0" VerticalAlignment="Top" Width="440" Background="#FF00556E" MouseDown="cInfo_MouseDown" Canvas.Left="180" Canvas.Top="0">
+                <Label x:Name="labProject" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Content="jqg" Canvas.Left="126" Canvas.Top="11" Foreground="White" FontFamily="Segoe UI" FontSize="28" FontWeight="Bold" Width="200" MouseDoubleClick="labProject_MouseDoubleClick" />
+                <Label x:Name="labAsset" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Content="jqg" Canvas.Left="126" Canvas.Top="48" Foreground="White" FontFamily="Segoe UI" FontSize="28" Width="200" />
+            </Canvas>
+            <Canvas x:Name="bcNavBack" HorizontalAlignment="Left" Height="100" Margin="0,0,0,0" VerticalAlignment="Top" Width="80" MouseDown="bNavBack_MouseDown" Background="#FF00556E" Canvas.Left="100" Canvas.Top="0">
+                <Rectangle Height="90" Canvas.Left="78" Canvas.Top="5" Width="1" Opacity="0.75">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF005564" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.25"/>
+                            <GradientStop Color="White" Offset="0.75"/>
+                            <GradientStop Color="#FF00556E" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Label Content="t" Foreground="White" FontFamily="/SEG.Desktop;component/#Wingdings 3" FontSize="48" Canvas.Top="20" Canvas.Left="10"/>
+            </Canvas>
+            <Canvas x:Name="bcNavForward" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="80" MouseDown="bNavForward_MouseDown" Background="#FF00556E" Canvas.Left="620" Canvas.Top="0">
+                <Rectangle Height="90" Canvas.Left="2" Canvas.Top="5" Width="1" Opacity="0.75">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF005564" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.25"/>
+                            <GradientStop Color="White" Offset="0.75"/>
+                            <GradientStop Color="#FF00556E" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Label Content="u" Foreground="White" FontFamily="/SEG.Desktop;component/#Wingdings 3" FontSize="48" Canvas.Top="20" Canvas.Left="16"/>
+            </Canvas>
+            <Canvas x:Name="cThumb" HorizontalAlignment="Left" Height="160" Margin="0,0,0,0" VerticalAlignment="Top" Width="160" Background="#FF00556E" MouseDown="cThumb_MouseDown" Panel.ZIndex="9" Canvas.Left="700" Canvas.Top="0">
+                <Image x:Name="iThumbMB" Height="160" Canvas.Left="0" Canvas.Top="0" Width="160"/>
+            </Canvas>
+            <Canvas x:Name="cDropMenu" HorizontalAlignment="Left" Height="200" Margin="0,0,0,0" VerticalAlignment="Top" Width="350" Background="#FFFAA519" Panel.ZIndex="10" Canvas.Left="0" Canvas.Top="100">
+
+                <Canvas x:Name="cDExit" Height="80" Canvas.Left="10" Canvas.Top="100" Width="330" MouseDown="cDExit_MouseDown">
+                    <Rectangle Fill="White" Height="1" Canvas.Left="10" Canvas.Top="5" Width="310"/>
+                    <Label Content="Exit GLBSYS-SEG" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Canvas.Left="10" Canvas.Top="15" Foreground="White" FontFamily="Segoe UI" FontSize="24" Width="310" Height="60"/>
+                </Canvas>
+                <Label x:Name="lbUsername" Content="Isabela Paredes" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Canvas.Left="20" Canvas.Top="15" Foreground="White" FontFamily="Segoe UI" FontSize="20" Width="210" Height="60" FontWeight="Bold"/>
+                <Label Content="Admin" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Canvas.Left="20" Canvas.Top="50" Foreground="White" FontFamily="Segoe UI" FontSize="20" Width="210" Height="60"/>
+            </Canvas>
+            <Canvas x:Name="cShadow" HorizontalAlignment="Left" Height="400" Margin="0,0,0,0" VerticalAlignment="Top" Width="500" Background="#59000000" Visibility="Hidden" MouseDown="cShadow_MouseDown" Canvas.Left="0" Canvas.Top="100"/>
+        </Canvas>
+    </Grid>
+</UserControl>

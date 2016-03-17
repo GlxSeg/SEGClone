@@ -1,0 +1,57 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Utilities="clr-namespace:SEG.Desktop.Utilities" x:Class="SEG.Desktop.Windows.Panels.Area_AssetList" 
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="1100">
+    <Grid>
+        <Canvas x:Name="c" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="White" >
+            <Canvas x:Name="cSubMenu" Width="1100" Height="60" Background="#29718F">
+                <Canvas x:Name="cSubMenu_1" Width="320" Height="60" Canvas.Left="0" Canvas.Top="0" Background="White">
+                    <Label x:Name="labName_S1" Content="Equipment" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+                        Canvas.Left="0" Canvas.Top="0" Width="320" Height="60" FontFamily="Segoe UI" FontSize="24" Foreground="#FF005564" FontWeight="Bold"/>
+                </Canvas>
+                <Canvas x:Name="SubMenu_2" Panel.ZIndex="9"
+                        Width="320" Height="60" Canvas.Left="320" Canvas.Top="0" 
+                        Background="#29718F" MouseDown="SubMenu_2_MouseDown">
+                    <Label x:Name="labName_S2" Content="General Diagnostics" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+                        Canvas.Left="0" Canvas.Top="0" Width="320" Height="60" FontSize="24" Foreground="White"/>
+                </Canvas>
+                <Rectangle Height="50" Canvas.Left="640" Canvas.Top="5" Width="1" Opacity="0.75" Panel.ZIndex="10">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF005564" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.25"/>
+                            <GradientStop Color="White" Offset="0.75"/>
+                            <GradientStop Color="#FF00556E" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Canvas x:Name="cbDelete" Height="50" Canvas.Left="610" Canvas.Top="5" Width="180" Background="Silver" MouseDown="cbDelete_MouseDown">
+                    <Label x:Name="lbDelete" Content="Delete Area" Canvas.Left="0" Canvas.Top="0" Width="180" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="Black"/>
+                </Canvas>
+
+                <Canvas x:Name="cbCopyDiag" Height="50" Canvas.Left="710" Canvas.Top="5" Width="180" Background="Silver" MouseDown="cbCopyDiag_MouseDown">
+                    <Label x:Name="lbCopyDiag" Content="Copy Diagnostics" Canvas.Left="0" Canvas.Top="0" Width="180" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="Black"/>
+                </Canvas>
+
+                <Canvas x:Name="cbPrint" Height="50" Canvas.Left="900" Canvas.Top="5" Width="180" Background="Silver" MouseDown="cbPrint_MouseDown">
+                    <Label x:Name="lbPrint" Content="Print Area Report" Canvas.Left="0" Canvas.Top="0" Width="180" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="Black"/>
+                </Canvas>
+
+            </Canvas>
+
+            <ScrollViewer x:Name="scrollView" Height="325" Canvas.Left="10" Canvas.Top="65" Width="1080" 
+                          CanContentScroll="True" PanningMode="VerticalOnly" 
+                          HorizontalContentAlignment="Stretch" VerticalContentAlignment="Top">
+                <WrapPanel x:Name="sPanel" Orientation="Horizontal">
+                    
+                </WrapPanel>
+            </ScrollViewer>
+
+        </Canvas>
+    </Grid>
+</UserControl>

@@ -1,0 +1,97 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:video="clr-namespace:TakeSnapsWithWebcamUsingWpfMvvm.Video"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:command="http://www.galasoft.ch/mvvmlight"
+        xmlns:cmdBehavior="clr-namespace:TakeSnapsWithWebcamUsingWpfMvvm.CmdBehavior"
+        xmlns:s="clr-namespace:DiagramDesigner"
+        x:Class="SEG.Desktop.Windows.Popups.Edit_CaptureImage"
+        Title="Edit_CaptureImage" Height="600" Width="1100" WindowStartupLocation="CenterOwner" Loaded="Window_Loaded" WindowStyle="None" ResizeMode="NoResize">
+
+    <Window.Resources>
+
+        <!-- MoveThumb Template -->
+        <ControlTemplate x:Key="MoveThumbTemplate" TargetType="{x:Type s:MoveThumb}">
+            <Rectangle Fill="Transparent"/>
+        </ControlTemplate>
+
+        <!-- ResizeDecorator Template -->
+        <ControlTemplate x:Key="ResizeDecoratorTemplate" TargetType="{x:Type Control}">
+            <Grid>
+                <s:ResizeThumb Width="20" Height="20" Cursor="SizeNWSE" Margin="-10 -10 0 0"
+                       VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <s:ResizeThumb Width="20" Height="20" Cursor="SizeNWSE" Margin="0 0 -10 -10"
+                       VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+            </Grid>
+        </ControlTemplate>
+
+
+        <!-- Designer Item Template-->
+        <ControlTemplate x:Key="DesignerItemTemplate" TargetType="ContentControl">
+            <Grid DataContext="{Binding RelativeSource={RelativeSource TemplatedParent}}">
+                <s:MoveThumb Template="{StaticResource MoveThumbTemplate}" Cursor="SizeAll"/>
+                <Control Template="{StaticResource ResizeDecoratorTemplate}"/>
+                <ContentPresenter Content="{TemplateBinding ContentControl.Content}"/>
+            </Grid>
+        </ControlTemplate>
+
+    </Window.Resources>
+    <Grid>
+        <Canvas x:Name="c" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="White" >
+            <Rectangle x:Name="rBorder" Width="1096" Height="596" Canvas.Top="2" Canvas.Left="2" Stroke="Gray" StrokeThickness="4" />
+            <Label x:Name="labTitle" Content="Take Photo" Canvas.Left="26" Canvas.Top="10" FontSize="18" FontWeight="Bold" />
+            <Rectangle x:Name="rTop" Width="1068" Height="2" Canvas.Left="16" Canvas.Top="50" Fill="Silver"/>
+            <Rectangle x:Name="rBottom" Width="1068" Height="2" Canvas.Left="16" Canvas.Top="550" Fill="Silver"/>
+            <Canvas x:Name="cbCancel" Height="30" Canvas.Left="26" Canvas.Top="558" Width="100" Background="Silver" MouseDown="cbCancel_MouseDown">
+                <Label x:Name="lbCancel" Content="Cancel" Canvas.Left="0" Canvas.Top="-3" Width="100" Height="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="Black"/>
+            </Canvas>
+
+            <video:WebcamDevice Canvas.Left="26" Canvas.Top="60" Width="853" Height="480" 
+                                x:Name="cam"
+                                VideoPreviewWidth="Auto"
+                                VideoPreviewHeight="Auto" Panel.ZIndex="9000" />
+            <Rectangle Height="40" Canvas.Left="910" Stroke="Gray" StrokeThickness="1" Canvas.Top="70" Width="1"/>
+            <Rectangle Height="100" Canvas.Left="910" Stroke="Gray" StrokeThickness="1" Canvas.Top="430" Width="1"/>
+            <Rectangle x:Name="rB2_0" Height="1" Canvas.Left="910" Stroke="Gray" StrokeThickness="1" Canvas.Top="110" Width="152"/>
+            <Rectangle Height="1" Canvas.Left="910" Stroke="Gray" StrokeThickness="1" Canvas.Top="270" Width="152"/>
+            <Rectangle x:Name="rB1_2" Height="1" Canvas.Left="910" Stroke="Gray" StrokeThickness="1" Canvas.Top="430" Width="152"/>
+            <Rectangle x:Name="rB1_0" Height="160" Canvas.Left="910" Stroke="Gray" StrokeThickness="1" Canvas.Top="110" Width="1"/>
+            <Rectangle x:Name="rB2_2" Height="160" Canvas.Left="910" Stroke="Gray" StrokeThickness="1" Canvas.Top="270" Width="1"/>
+            <Rectangle x:Name="rB2_1" Height="160" Canvas.Left="1062" Stroke="Gray" StrokeThickness="1" Canvas.Top="110" Width="1"/>
+            <Rectangle x:Name="rB1_1" Height="160" Canvas.Left="1062" Stroke="Gray" StrokeThickness="1" Canvas.Top="270" Width="1"/>
+            <Label x:Name="labB1" Content="Capture" Canvas.Left="936" Canvas.Top="116" FontSize="16" FontWeight="Bold" />
+            <Label x:Name="labB2" Content="Crop" Canvas.Left="936" Canvas.Top="276" FontSize="16" FontWeight="Bold" />
+            <Image x:Name="imgB1" Width="100" Height="100" Canvas.Left="936" Canvas.Top="152" MouseDown="imgB1_MouseDown" ></Image>
+            <Rectangle x:Name="rB1b" Height="100" Canvas.Left="936" Stroke="Gray" StrokeThickness="2" Canvas.Top="152" Width="100"/>
+            <Image x:Name="imgB2" Width="100" Height="100" Canvas.Left="936" Canvas.Top="312" MouseDown="imgB2_MouseDown" ></Image>
+            <Rectangle x:Name="rB2b" Height="100" Canvas.Left="936" Stroke="Gray" StrokeThickness="2" Canvas.Top="312" Width="100"/>
+            <Canvas x:Name="cbRetake" Height="30" Canvas.Left="936" Canvas.Top="70" Width="100" Background="Silver" MouseDown="cbRetake_MouseDown">
+                <Label x:Name="lbRetake" Content="Retake" Canvas.Left="0" Canvas.Top="-3" Width="100" Height="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="Black"/>
+            </Canvas>
+
+            <Canvas x:Name="cbUpload" Height="30" Canvas.Left="936" Canvas.Top="490" Width="100" Background="Silver" MouseDown="cbUpload_MouseDown" >
+                <Label x:Name="lbUpload" Content="Upload" Canvas.Left="0" Canvas.Top="-3" Width="100" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="Black"/>
+            </Canvas>
+
+
+            <Canvas x:Name="cropArea" Width="853" Height="480" Canvas.Left="26" Canvas.Top="60" Visibility="Hidden" Background="White">
+
+                <Image x:Name="imgSnap" Width="853" Height="480" Canvas.Left="0" Canvas.Top="0" Panel.ZIndex="1"></Image>
+                <ContentControl Name="DesignerItem"
+                        Width="100"
+                        MinWidth="50"
+                        Height="100"
+                        MinHeight="50"
+                        Canvas.Top="100"
+                        Canvas.Left="100"
+                        Template="{StaticResource DesignerItemTemplate}" 
+                        Panel.ZIndex="10">
+                    <Rectangle x:Name="cropRect" Fill="#66FFFFFF" IsHitTestVisible="False"></Rectangle>
+                </ContentControl>
+                
+            </Canvas>
+
+        </Canvas>
+    </Grid>
+</Window>

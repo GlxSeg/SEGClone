@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="SEG.Desktop.UserControls.SEGDiagnosticSection"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="90" d:DesignWidth="600">
+    <Grid>
+        <Canvas x:Name="c" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Rectangle x:Name="rTop" Width="590" Height="2" Canvas.Left="5" Canvas.Top="0" Fill="Gray"/>
+            <Label x:Name="labBlock" Canvas.Left="160" Canvas.Top="20" FontWeight="ExtraBold" FontSize="18" Width="480" LayoutUpdated="labBlock_LayoutUpdated">
+                <TextBlock x:Name="labContent" TextWrapping="WrapWithOverflow">
+                    This is a test of the emergency broadcast system. This is only a test.  I hope this test works.                    
+                </TextBlock>
+            </Label>
+            <Label x:Name="labCode" Content="12." Canvas.Left="20" Canvas.Top="20" FontSize="18" FontWeight="Bold"/>            
+        </Canvas>
+    </Grid>
+</UserControl>

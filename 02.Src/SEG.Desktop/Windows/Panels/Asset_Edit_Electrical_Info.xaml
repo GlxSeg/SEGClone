@@ -1,0 +1,177 @@
+﻿<UserControl x:Class="SEG.Desktop.Windows.Panels.Asset_Edit_Electrical_Info"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:utilities="clr-namespace:SEG.Desktop.Utilities"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1200">
+    <Grid>
+        <Canvas x:Name="c" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="White" >
+            <Canvas x:Name="cSubMenu" Width="1200" Height="60" Background="#29718F">
+                <Canvas x:Name="cSubMenu_1" Width="270" Height="60" Canvas.Left="0" Canvas.Top="0" Background="#29718F" MouseDown="cSubMenu_1_MouseDown" >
+                    <Label x:Name="labName_S1" Content="General" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+                		Canvas.Left="0" Canvas.Top="0" Width="270" Height="60" FontFamily="Segoe UI" FontSize="24" Foreground="White" />
+                </Canvas>
+                <Canvas x:Name="cSubMenu_2" Width="270" Height="60" Canvas.Left="270" Canvas.Top="0" Background="#29718F" Panel.ZIndex="9" MouseDown="cSubMenu_2_MouseDown">
+                    <Label x:Name="labName_S2" Content="Mechanical" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+                		Canvas.Left="0" Canvas.Top="0" Width="270" Height="60" FontFamily="Segoe UI" FontSize="24" Foreground="White"/>
+                </Canvas>
+                <Canvas x:Name="cSubMenu_3" Width="270" Height="60" Canvas.Left="540" Canvas.Top="0" Background="White" Panel.ZIndex="9" >
+                    <Label x:Name="labName_S3_0" Content="Electrical" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" 
+                		Canvas.Left="0" Canvas.Top="0" Width="270" Height="60" FontFamily="Segoe UI" FontSize="24" Foreground="#FF005564"/>
+                </Canvas>
+
+                <Rectangle Height="50" Canvas.Left="270" Canvas.Top="5" Width="1" Opacity="0.75" Panel.ZIndex="10">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF005564" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.25"/>
+                            <GradientStop Color="White" Offset="0.75"/>
+                            <GradientStop Color="#FF00556E" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Canvas x:Name="cSubMenu_4" Width="270" Height="60" Canvas.Left="810" Canvas.Top="0" Background="#29718F" Panel.ZIndex="9" MouseDown="cSubMenu_4_MouseDown" >
+                    <Label x:Name="labName_S4" Content="Risk" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+                		Canvas.Left="0" Canvas.Top="0" Width="270" Height="60" FontFamily="Segoe UI" FontSize="24" Foreground="White"/>
+                </Canvas>
+
+                <Rectangle Height="50" Canvas.Left="1080" Canvas.Top="5" Width="1" Opacity="0.75">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF005564" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.25"/>
+                            <GradientStop Color="White" Offset="0.75"/>
+                            <GradientStop Color="#FF00556E" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+            </Canvas>
+
+            <Canvas x:Name="cSubMenu2" Width="1200" Height="50" Background="#FFCCCCCC" Canvas.Top="60">
+                <Canvas x:Name="cSubMenu2_1" Width="200" Height="50" Canvas.Left="0" Canvas.Top="0" Background="#FFCCCCCC" MouseDown="cSubMenu2_1_MouseDown">
+                    <Label x:Name="labName_2_1" Content="Diagnostic Items" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+            		Canvas.Left="0" Canvas.Top="0" Width="200" Height="50" FontFamily="Segoe UI" FontSize="20" Foreground="#FF005564"/>
+                </Canvas>
+                <Canvas x:Name="cSubMenu2_2" Width="200" Height="50" Canvas.Left="200" Canvas.Top="0" Background="#FFCCCCCC" MouseDown="cSubMenu2_2_MouseDown" >
+                    <Label x:Name="labName_2_2" Content="Diagnostic Images" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+            		Canvas.Left="0" Canvas.Top="0" Width="200" Height="50" FontFamily="Segoe UI" FontSize="20" Foreground="#FF005564"/>
+                </Canvas>
+                <Canvas x:Name="cSubMenu2_3" Width="200" Height="50" Canvas.Left="400" Canvas.Top="0" Background="White" >
+                    <Label x:Name="labName_2_3" Content="Panel Info" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+            		Canvas.Left="0" Canvas.Top="0" Width="200" Height="50" FontFamily="Segoe UI" FontSize="20" Foreground="#FF005564" FontWeight="Bold"/>
+                </Canvas>
+                <Canvas x:Name="cSubMenu2_E" Width="340" Height="50" Canvas.Left="600" Canvas.Top="0" Background="#FFCCCCCC">
+                    <Label x:Name="labECount" Content="1 / 3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+            		       Canvas.Left="100" Canvas.Top="0" Width="120" Height="50" 
+                           FontFamily="Segoe UI" FontSize="24" Foreground="#FF005564" FontWeight="Bold"/>
+                    <Label x:Name="labECBack" Content="t" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+                           FontFamily="/SEG.Desktop;component/#Wingdings 3" FontSize="32" Foreground="Silver"
+                           Canvas.Top="0" Canvas.Left="50" Height="50" Width="50" MouseDown="labECBack_MouseDown"/>
+                    <Label x:Name="labECForward" Content="u" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+                           FontFamily="/SEG.Desktop;component/#Wingdings 3" FontSize="32" Foreground="#FF005564"
+                           Canvas.Top="0" Canvas.Left="220" Height="50" Width="50" MouseDown="labECForward_MouseDown"/>
+                </Canvas>
+
+                <Rectangle x:Name="rcSubMenu" Height="40" Canvas.Left="200" Canvas.Top="5" Width="1" Opacity="0.75">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFCCCCCC" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.25"/>
+                            <GradientStop Color="White" Offset="0.75"/>
+                            <GradientStop Color="#FFCCCCCC" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="rcSubMenuE" Height="40" Canvas.Left="200" Canvas.Top="5" Width="1" Opacity="0.75">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFCCCCCC" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.25"/>
+                            <GradientStop Color="White" Offset="0.75"/>
+                            <GradientStop Color="#FFCCCCCC" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Canvas x:Name="cbRemove" Height="40" Canvas.Left="1000" Canvas.Top="5" Width="200" Background="Silver" MouseDown="cbRemove_MouseDown">
+                    <Label x:Name="lbRemove" Content="Delete Diagnostics" Canvas.Left="0" Canvas.Top="0" Width="200" Height="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="Black"/>
+                </Canvas>
+            </Canvas>
+
+            <Rectangle x:Name="rcAssetInfo" Height="300" Canvas.Left="20" Canvas.Top="120" Width="740" Stroke="Silver" />
+            <Label x:Name="lab2" Content="Asset number" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" 
+            	Canvas.Left="40" Canvas.Top="130" Width="190" Height="50" FontFamily="Segoe UI" FontSize="20" Foreground="#FF005564" FontWeight="Bold"/>
+            <Label x:Name="lab3" Content="Tag" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" 
+            	Canvas.Left="40" Canvas.Top="185" Width="190" Height="50" FontFamily="Segoe UI" FontSize="20" Foreground="#FF005564" FontWeight="Bold"/>
+            <Label x:Name="lab4" Content="Location" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" 
+            	Canvas.Left="40" Canvas.Top="240" Width="190" Height="50" FontFamily="Segoe UI" FontSize="20" Foreground="#FF005564" FontWeight="Bold"/>
+            <Label x:Name="lab5" Content="Number of Doors" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" 
+            	Canvas.Left="40" Canvas.Top="295" Width="190" Height="50" FontFamily="Segoe UI" FontSize="20" Foreground="#FF005564" FontWeight="Bold"/>            
+            
+            
+            
+            <TextBox x:Name="eInfo1" Height="50" Canvas.Left="230" TextWrapping="Wrap" Text="" Canvas.Top="130" Width="500"
+                     HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Segoe UI" FontSize="20" Foreground="#FF29718F">
+                <TextBox.BorderBrush>
+                    <LinearGradientBrush EndPoint="0,20" MappingMode="Absolute" StartPoint="0,0">
+                        <GradientStop Color="#FFABADB3" Offset="0.05"/>
+                        <GradientStop Color="#FFE2E3EA" Offset="0.07"/>
+                        <GradientStop Color="#FFD1D3D4" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.BorderBrush>
+            </TextBox>
+
+            <TextBox x:Name="eInfo2" Height="50" Canvas.Left="230" TextWrapping="Wrap" Text="" Canvas.Top="185" Width="500"
+                     HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Segoe UI" FontSize="20" Foreground="#FF29718F">
+                <TextBox.BorderBrush>
+                    <LinearGradientBrush EndPoint="0,20" MappingMode="Absolute" StartPoint="0,0">
+                        <GradientStop Color="#FFABADB3" Offset="0.05"/>
+                        <GradientStop Color="#FFE2E3EA" Offset="0.07"/>
+                        <GradientStop Color="#FFD1D3D4" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.BorderBrush>
+            </TextBox>
+
+            <TextBox x:Name="eInfo3" Height="50" Canvas.Left="230" TextWrapping="Wrap" Text="" Canvas.Top="240" Width="500"
+                     HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Segoe UI" FontSize="20" Foreground="#FF29718F">
+                <TextBox.BorderBrush>
+                    <LinearGradientBrush EndPoint="0,20" MappingMode="Absolute" StartPoint="0,0">
+                        <GradientStop Color="#FFABADB3" Offset="0.05"/>
+                        <GradientStop Color="#FFE2E3EA" Offset="0.07"/>
+                        <GradientStop Color="#FFD1D3D4" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.BorderBrush>
+            </TextBox>
+
+            <TextBox x:Name="eInfo4" Height="50" Canvas.Left="230" TextWrapping="Wrap" Text="" Canvas.Top="295" Width="200"
+                     HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Segoe UI" FontSize="20" Foreground="#FF29718F">
+                <TextBox.BorderBrush>
+                    <LinearGradientBrush EndPoint="0,20" MappingMode="Absolute" StartPoint="0,0">
+                        <GradientStop Color="#FFABADB3" Offset="0.05"/>
+                        <GradientStop Color="#FFE2E3EA" Offset="0.07"/>
+                        <GradientStop Color="#FFD1D3D4" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.BorderBrush>
+            </TextBox>
+
+            <Canvas x:Name="cbEditAI" Height="50" Canvas.Left="230" Canvas.Top="360" Width="100" Background="Silver" MouseDown="cbEditAI_MouseDown">
+                <Label x:Name="lbEditAI" Content="Edit" Canvas.Left="0" Canvas.Top="0" Width="100" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="Black"/>
+            </Canvas>
+
+            <Canvas x:Name="cbSaveAI" Height="50" Canvas.Left="335" Canvas.Top="360" Width="100" Background="#FFE0E0E0" MouseDown="cbSaveAI_MouseDown">
+                <Label x:Name="lbSaveAI" Content="Save" Canvas.Left="0" Canvas.Top="0" Width="100" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="Silver"/>
+            </Canvas>
+
+            <Canvas x:Name="cbCancelAI" Height="50" Canvas.Left="440" Canvas.Top="360" Width="150" Background="#FFE0E0E0" MouseDown="cbCancelAI_MouseDown">
+                <Label x:Name="lbCancelAI" Content="Cancel Editing" Canvas.Left="0" Canvas.Top="0" Width="150" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="Silver"/>
+            </Canvas>
+
+        </Canvas>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="SEG.Desktop.Windows.Panels.ImageHolder"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="180" d:DesignWidth="180">
+    <Grid>
+        <Canvas x:Name="c" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="White" MouseDown="c_MouseDown" >
+            <Rectangle x:Name="rcI" Height="160" Canvas.Left="10" Canvas.Top="10" Width="160" Fill="#FF00556E" />
+            <Rectangle x:Name="rcB" Height="176" Canvas.Left="2" Canvas.Top="2" Width="176" Stroke="Black" StrokeThickness="3" />
+            <Image x:Name="img" Height="140" Canvas.Left="20" Canvas.Top="20" Width="140"/>
+        </Canvas> 
+    </Grid>
+</UserControl>

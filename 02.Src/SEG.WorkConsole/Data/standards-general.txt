@@ -1,0 +1,95 @@
+section	12				"MANUTENÇÃO, INSPEÇÃO, PREPARAÇÃO, AJUSTES E REPAROS"				
+	12	111	1		As manutenções preventivas com potencial de causar acidentes do trabalho devem ser objeto de planejamento e gerenciamento efetuado por profissional legalmente habilitado.				
+print	12	112			"As manutenções preventivas e corretivas devem ser registradas em livro próprio, ficha ou sistema informatizado, com os seguintes dados:"				
+	12	112	0	a)	Cronograma de manutenção				
+	12	112	0	b)	Intervenções realizadas				
+	12	112	0	c)	Data da realização de cada intervenção				
+	12	112	0	d)	Serviço realizado				
+	12	112	0	e)	Peças reparadas ou substituídas				
+	12	112	0	f)	Condições de segurança do equipamento				
+	12	112	0	g)	Indicação conclusiva quanto às condições de segurança da máquina				
+	12	112	0	h)	Nome do responsável pela execução das intervenções				
+	12	112	1		"O registro das manutenções deve ficar disponível aos trabalhadores envolvidos na operação, manutenção e reparos, bem como à Comissão Interna de Prevenção de Acidentes - CIPA, ao Serviço de Segurança e Medicina do Trabalho - SESMT e à fiscalização do Ministério do Trabalho e Emprego"				
+print	12	113			"A manutenção, inspeção, reparos, limpeza, ajuste e outras intervenções que se fizerem necessárias devem ser executadas por profissionais capacitados, qualificados ou legalmente habilitados, formalmente autorizados pelo empregador, com as máquinas e equipamentos parados e adoção dos seguintes procedimentos:"				
+	12	113	0	a)	"Isolamento e descarga de todas as fontes de energia das máquinas e equipamentos, de modo visível ou facilmente identificável por meio dos dispositivos de comando"				
+	12	113	0	b)	"Bloqueio mecânico e elétrico na posição “desligado” ou “fechado” de todos os dispositivos de corte de fontes de energia, a fim de impedir a reenergização, e sinalização com cartão ou etiqueta de bloqueio contendo o horário e a data do bloqueio, o motivo da manutenção e o nome do responsável"				
+	12	113	0	c)	Medidas que garantam que à jusante dos pontos de corte de energia não exista possibilidade de gerar risco de acidentes				
+	12	113	0	d)	"Medidas adicionais de segurança,  quando for realizada  manutenção,  inspeção e reparos de equipamentos  ou máquinas sustentados somente por sistemas hidráulicos e pneumáticos"				
+	12	113	0	e)	"Sistemas de retenção com trava mecânica, para evitar o movimento de retorno acidental de partes basculadas ou articuladas abertas das máquinas e equipamentos"				
+	12	114			"A manutenção de máquinas e equipamentos contemplará, dentre outros itens, a realização de ensaios não destrutivos, nas estruturas e componentes submetidos a solicitações de força e cuja ruptura ou desgaste possa ocasionar acidentes"				
+	12	114	1		"Os ensaios não destrutivos, quando realizados, devem atender às normas técnicas oficiais nacionais vigentes e, na falta destas, normas técnicas internacionais"				
+section	14				MANUAIS	NEW SECTION TO GENERAL DIAGNOSTICS			
+print	12	126	1		As microempresas e empresas de pequeno porte que não disponham de manual de instruções de máquina e equipamentos fabricados antes de 24/6/2012 devem elaborar ficha de informação contendo os seguintes itens:				
+	12	126	1	a)	"tipo, modelo e capacidade;"				
+				b)	descrição da utilização prevista para a máquina ou equipamento;
+				c)	indicação das medidas de segurança existentes;				
+				d)	instruções para utilização segura da máquina ou equipamento;				
+				e)	periodicidade e instruções quanto às inspeções e manutenção;				
+				f)	"procedimentos a serem adotados em situações de emergéncia, quando aplicável."				
+	12	126	1	1	A ficha de informação indicada no item 12.126.1 pode ser elaborada pelo empregador ou pessoa designada por este.				
+section	15				PROCEDIMENTOS DE TRABALHO E SEGURANÇA				
+	12	130			"Devem  ser  elaborados  procedimentos de  trabalho  e segurança  específicos,  padronizados,  com  descrição detalhada de cada tarefa, passo a passo, a partir da análise de risco."				
+	12	130	1		"Os procedimentos de trabalho e segurança não podem ser as únicas medidas de proteção adotadas para se prevenir acidentes, sendo considerados complementos e não substitutos das medidas de proteção coletivas necessárias para a garantia da segurança e saúde dos trabalhadores"				
+	12	131			"Ao inicio de cada turno de trabalho ou após nova preparação da máquina ou equipamento, o operador deve efetuar inspeção rotineira das condições de operacionalidade e segurança e, se constatadas anormalidades que afetem a segurança, as atividades devem ser interrompidas, com a comunicação ao superior hierárquico"				
+	12	132			"Os serviços em máquinas e equipamentos que envolvam risco de acidentes de trabalho devem ser planejados e realizados em conformidade com os procedimentos de trabalho e segurança, sob supervisão e anuência expressa de profissional habilitado ou qualificado, desde que autorizados"				
+print	12	132	1		"Os serviços em máquinas e equipamentos que envolvam risco de acidentes de trabalho devem ser precedidos de ordens de serviço - OS - específicas, contendo, no mínimo:"				
+	12	132	1	a)	A descrição do serviço				
+	12	132	1	b)	data e o local de realização				
+	12	132	1	c)	O nome e a função dos trabalhadores				
+	12	132	1	d)	"Os responsáveis pelo serviço e pela emissão da OS, de acordo com os procedimentos de trabalho e segurança"				
+section	16				"PROJETO, FABRICAÇÃO, IMPORTAÇÃO, VENDA, LOCAÇÃO, LEILÃO, CESSÃO A QUALQUER TÍTULO E EXPOSIÇÃO."	SECTION NAME CHANGED!			
+	12	133			"O projeto deve levar em conta a segurança intrínseca da máquina ou equipamento durante as  fases  de construção, transporte, montagem, instalação, ajuste, operação, limpeza, manutenção, inspeção, desativação, desmonte e sucateamento por meio das referências técnicas indicadas nesta Norma, a serem observadas para garantir a saúde e a integridade física dos trabalhadores"				
+	12	133	1		"O projeto da máquina ou equipamento não deve permitir erros na montagem ou remontagem de determinadas peças ou elementos que possam gerar riscos durante seu funcionamento, especialmente quanto ao sentido de rotação ou deslocamento"				
+	12	133	2		"O projeto das máquinas ou equipamentos fabricados ou importados após a vigência desta Norma deve prever meios adequados para o seu levantamento, carregamento, instalação, remoção e transporte"				
+	12	133	3		"Devem ser previstos meios seguros para as atividades de instalação, remoção, desmonte ou transporte, mesmo que em partes, de máquinas e equipamentos fabricados ou importados antes da vigência desta Norma"				
+	12	134			"É proibida a fabricação, importação, comercialização, leilão, locação, cessão a qualquer título e exposição de máquina e equipamentos que não atendam ao disposto nesta Norma."				
+section	17				CAPACITAÇÃO				
+	12	135			"A operação, manutenção, inspeção e demais intervenções em máquinas e equipamentos devem ser realizadas por trabalhadores habilitados, qualificados, capacitados ou autorizados para este fim"				
+	12	136			"Os trabalhadores envolvidos na operação, manutenção, inspeção e demais intervenções em máquinas e equipamentos devem receber capacitação providenciada pelo empregador e compatível com suas funções, que aborde os riscos a que estão expostos e as medidas de proteção existentes e necessárias, nos termos desta Norma, para a prevenção de acidentes e doenças"				
+	12	137			"Os operadores de máquinas e equipamentos devem ser maiores de dezoito anos, salvo na condição de aprendiz, nos termos da legislação vigente"				
+print	12	138			A capacitação deve:				
+	12	138	0	a)	Ocorrer antes que o trabalhador assuma a sua função				
+	12	138	0	b)	Ser realizada sem ônus para o trabalhador				
+	12	138	0	c)	"Ter  carga  horária  mínima  que  garanta  aos  trabalhadores  executarem  suas  atividades  com  segurança,  sendo distribuída em no máximo oito horas diárias e realizada durante o horário normal de trabalho"				
+	12	138	0	d)	Ter conteúdo programático conforme o estabelecido no Anexo II desta Norma				
+	12	138	0	e)	"Ser ministrada por trabalhadores ou profissionais qualificados para este fim, com supervisão de profissional legalmente habilitado que se responsabilizará pela adequação do conteúdo, forma, carga horária, qualificação dos instrutores e avaliação dos capacitados"				
+	12	138	1		A capacitação dos trabalhadores de microempresas e empresas de pequeno porte poderá ser ministrada por trabalhador da própria empresa que tenha sido capacitado nos termos do item 12.138 em entidade oficial de ensino de educação profissional.				
+	12	138	1	1	O empregador é responsável pela capacitação realizada nos termos do item 12.138.1.				
+	12	138	1	2	"A capacitação dos trabalhadores de microempresas e empresas de pequeno porte, prevista no item 12.138.1, deve contemplar o disposto no item 12.138, exceto a alínea ""e""."				
+	12	138	2		"É considerado capacitado o trabalhador de microempresa e empresa de pequeno porte que apresentar declaração ou certificado emitido por entidade oficial de ensino de educação profissional, desde que atenda o disposto no item 12.138."				
+	12	139			"O material didático escrito ou audiovisual utilizado no treinamento e o fornecido aos participantes, devem ser produzidos em linguagem adequada aos trabalhadores, e ser mantidos à disposição da fiscalização, assim como a lista de presença dos participantes ou certificado, currículo dos ministrantes e avaliação dos capacitados"				
+	12	140			"Considera-se trabalhador ou profissional qualificado aquele que comprovar conclusão de curso específico na área de atuação, reconhecido pelo sistema oficial de ensino, compatível com o curso a ser ministrado"				
+	12	141			"Considera-se profissional legalmente habilitado para a supervisão da capacitação aquele que comprovar conclusão de curso específico na área de atuação, compatível com o curso a ser ministrado, com registro no competente conselho de classe"				
+	12	142			"A capacitação só terá validade para o empregador que a realizou e nas condições estabelecidas pelo profissional legalmente habilitado responsável pela supervisão da capacitação, exceto quanto aos trabalhadores capacitados nos termos 38 do item 12.138.2."				
+	12	142	1		Fica dispensada a exigência do item 12.142 para os operadores de injetoras com curso de capacitação conforme o previsto no item 12.147 e seus subitens				
+	12	143			"São considerados autorizados os trabalhadores qualificados, capacitados ou profissionais legalmente habilitados, com autorização dada por meio de documento formal do empregador"				
+	12	143	1		"Até a data da vigência desta Norma, será considerado capacitado o trabalhador que possuir comprovação por meio de registro na Carteira de Trabalho e Previdência Social - CTPS ou registro de empregado de pelo menos dois anos de experiência na atividade e que receba reciclagem conforme o previsto no item 12.144 desta Norma"				
+	12	144			"Deve  ser  realizada  capacitação  para  reciclagem  do  trabalhador  sempre  que  ocorrerem  modificações significativas nas instalações e na operação de máquinas ou troca de métodos, processos e organização do trabalho"				
+	12	144	1		"O conteúdo programático da capacitação para reciclagem deve atender às necessidades da situação que a motivou, com carga horária mínima que garanta aos trabalhadores executarem suas atividades com segurança, sendo distribuída em no máximo oito horas diárias e realizada durante o horário normal de trabalho"				
+	12	145			"A função do trabalhador que opera e realiza intervenções em máquinas deve ser anotada no registro de empregado, consignado em livro, ficha ou sistema eletrônico e em sua Carteira de Trabalho e Previdência Social - CTPS"				
+	12	146			"Os operadores de máquinas autopropelidas devem portar cartão de identificação, com nome, função e fotografia em local visível, renovado com periodicidade máxima de um ano mediante exame médico, conforme disposições constantes das NR-7 e NR-11"				
+	12	147			O curso de capacitação para operadores de máquinas injetoras deve possuir carga horária mínima de oito horas por tipo de máquina citada no Anexo IX desta Norma				
+print	12	147	1		O curso de capacitação deve ser específico para o tipo máquina em que o operador irá exercer suas funções e atender ao seguinte conteúdo programático:				
+	12	147	1	a)	Histórico da regulamentação de segurança sobre a máquina especificada				
+	12	147	1	b)	Descrição e funcionamento				
+	12	147	1	c)	Riscos na operação				
+	12	147	1	d)	Principais áreas de perigo				
+	12	147	1	e)	Medidas e dispositivos de segurança para evitar acidentes				
+	12	147	1	f)	"Proteções - portas, e distâncias de segurança"				
+	12	147	1	g)	Exigências mínimas de segurança previstas nesta Norma e na NR 10				
+	12	147	1	h)	Medidas de segurança para injetoras elétricas e hidráulicas de comando manual				
+	12	147	1	i)	Demonstração prática dos perigos e dispositivos de segurança				
+print	12	147	2		"O instrutor do curso de capacitação para operadores de injetora deve, no mínimo, possuir:"				
+	12	147	2	a)	Formação técnica em nível médio				
+	12	147	2	b)	Conhecimento técnico de máquinas utilizadas na transformação de material plástico				
+	12	147	2	c)	Conhecimento da normatização técnica de segurança				
+	12	147	2	d)	Capacitação específica de formação				
+section	19				DISPOSIÇÕES FINAIS				
+	12	153			"O empregador deve manter inventário atualizado das máquinas e equipamentos com identificação por tipo, capacidade, sistemas de segurança e localização em planta baixa, elaborado por profissional qualificado ou legalmente habilitado"				
+	12	153	1		As informações do inventário devem subsidiar as ações de gestão para aplicação desta Norma				
+	12	153	2		O item 12.153 não se aplica:				
+	12	153	2	a)	"às microempresas e as empresas de pequeno porte, que ficam dispensadas da elaboração do inventário de máquinas e equipamentos;"				
+	12	153	2	b)	"as máquinas autopropelidas, automotrizes e máquinas e equipamentos estacionários utilizados em frentes de trabalho."				
+	12	154			"Toda a documentação referida nesta norma, inclusive o inventário previsto no item 12.153, deve ficar disponível para o SESMT, CIPA ou Comissão Interna de Prevenção de Acidentes na Mineração - CIPAMIN, sindicatos representantes da categoria profissional e fiscalização do Ministério do Trabalho e Emprego"				
+	12	155			"As máquinas autopropelidas agrícolas, florestais e de construção em aplicações agro-florestais e respectivos implementos devem atender ao disposto no Anexo XI desta Norma"				
+	12	156			"As máquinas autopropelidas não contempladas no item 12.155 devem atender ao disposto nos itens e subitens 12.1, 12.1.1, 12.2, 12.3, 12.4, 12.5, 12.22, 12.23, 12.38, 12.38.1, 12.47, 12.47.2, 12.48, 12.49, 12.52, 12.53, 12.54, 12.64, 12.64.3, 12.66, 12.77, 12.78, 12.94, 12.95, 12.96, 12.101, 12.105, 12.107, 12.108, 12.111, 12.112, 12.115, 12.116, 12.116.3, 12.117, 12.118, 12.121, 12.130, 12.130.1, 12.131, 12.132, 12.132.1, 12.133, 12.133.1, 12.133.2, 12.133.3, 12.134, 12.135, 12.136, 12.137, 12.138, 12.139, 12.140, 12.141, 12.142, 12.143, 12.144, 12.144.1, 12.145, 12.146, 12.151, 12.151.1, 12.151.2, 12.151.3 e itens e subitens 14, 14.1 e 14.2 do Anexo XI desta Norma"				
